@@ -1,0 +1,33 @@
+{
+  "name": "blockchain-audit-log-system",
+  "version": "1.0.0",
+  "description": "A blockchain-inspired audit logging system with tamper detection and verification.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "blockchain",
+    "audit-log",
+    "nodejs",
+    "express",
+    "mongodb",
+    "sha256"
+  ],
+  "author": "Yudhveer Sharma",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^7.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
