@@ -1,21 +1,21 @@
-**🔐 SecureChain**
+**SecureChain**
 Blockchain-Based Audit Monitoring System
 
 SecureChain is a full-stack blockchain-inspired audit logging system designed to ensure tamper-proof activity tracking, secure log storage, and real-time chain verification.
 
 This system simulates a blockchain structure where every log entry is stored as a block linked using SHA-256 hashing to guarantee integrity and detect unauthorized modifications.
 
-**🚀 Features**
+**Features**
 
-🔗 Blockchain-style hash chaining
-🔒 Tamper detection & chain validation
-📊 Real-time analytics dashboard
-🚨 Suspicious & high-risk activity detection
-🔐 Role-Based Access Control (Admin, Auditor, User)
-📥 Professional PDF audit report generation
-🎨 Multi-page React UI
+Blockchain-style hash chaining
+Tamper detection & chain validation
+Real-time analytics dashboard
+Suspicious & high-risk activity detection
+Role-Based Access Control (Admin, Auditor, User)
+Professional PDF audit report generation
+Multi-page React UI
 
-**🏗 How It Works**
+**How It Works**
 
 Each audit log is stored as a block containing:
 
@@ -34,7 +34,7 @@ index + logId + action + user + ip + timestamp + previousHash
 
 If any block is modified, the hash changes → chain validation fails → tampering is detected immediately.
 
-**⚙️ Tech Stack**
+**Tech Stack**
 **Backend**
 
 Node.js
@@ -50,7 +50,7 @@ React Router
 Context API (Authentication)
 jsPDF (PDF report generation)
 
-**📡 API Endpoints**
+**API Endpoints**
 
 Add Log (Admin Only)
 POST /add-log
@@ -61,7 +61,7 @@ GET /verify/test
 Get Full Blockchain
 GET /blocks
 
-**📥 PDF Report**
+**PDF Report**
 
 The system generates a professional audit report including:
 
@@ -71,7 +71,8 @@ Blockchain integrity status
 Complete block table
 Generation timestamp
 
-**🛠 Installation**
+**Installation**
+
 **Backend**
 npm install
 node server.js
@@ -85,6 +86,6 @@ npm start
 
 Runs on: http://localhost:3000
 
-**👨‍💻 Author**
+**Author**
 
 Yudhveer Sharma
